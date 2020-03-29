@@ -27,6 +27,8 @@ This subsystem allows you to add or remove items from your store. You can also s
 
 The design as described above is intentionally simplified to leave room for innovations. Individual students may add creative features to make the store more user friendly and/or improve the business model to make the company more profitable. These students should make an appointment to demonstrate the extra effort before May 2nd , 2020 for extra credits.
 
+## Project Diagram
+
 ```
 +----------------------------------------------------------------+
 |                                                                |
