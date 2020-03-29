@@ -51,3 +51,6 @@ The design as described above is intentionally simplified to leave room for inno
 
 
 ```
+## Continuous Integration
+
+![PHP Composer](https://github.com/ahmedmansour4/Database-Systems-Project/workflows/PHP%20Composer/badge.svg)
