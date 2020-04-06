@@ -1,7 +1,6 @@
 
 var urlBase = 'http://amazoff.fun';
 var extension = 'php';
-console.log(urlBase);
 var userId = 0;
 var firstName = "";
 var lastName = "";
@@ -10,12 +9,15 @@ var lastName = "";
 // grabs values entered into text fields on sign up page
 function doSignUp()
 {
-	var  email = document.getElementById("email").innerHTMl;
-	var  userName = document.getElementById("userName").innerHTMl;
-	var  passWord = document.getElementById("passWord").innerHTMl;
-	var  firstName = document.getElementById("firstName").innerHTMl;
-	var  lastName = document.getElementById("lastName").innerHTMl;
-	console.log(email + " " + userName + " " + passWord + " " + firstName + " " + lastName);
+	var  firstName = document.getElementById("firstName").value;
+	var  lastName = document.getElementById("lastName").value;
+	var  email = document.getElementById("email").value;
+	var  phone = document.getElementById("firstName").value;
+	var  address = document.getElementById("address").value;
+	var  userName = document.getElementById("userName").value;
+	var  passWord = document.getElementById("passWord").value;
+	
+	console.log(firstName + " " + lastName + " " + email + " " + phone + " " + address + " " + userName + " " + passWord);
 }
 
 // grabs values entered into text fields on login in page and sends to server via JSON package

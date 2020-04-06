@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Amazoff</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<header class="header">
+			<div class="column">
+				<div id="placementTop"></div>
+				<div id="placementBottom"></div>
+				<div id="placementBottom" class="rectangleA"></div>
+			</div>
+			<div class="column">
+				<div id="placementTop"></div>
+				<div id="placementBottom"></div>
+				<!--TODO: fix so it scales when page size changes -->
+				<!--
+				<div id="placementBottom" class="rectangleA">
+							<h1>STOREFRONT TEST</h1>
+					</div>
+				-->
+				<h1 id="placementBottom" class="rectangleA">Welcome to Amazoff!</h1>
+			</div>
+			<div class="column">
+				<div id="placementTop"></div>
+				<div id="placementBottom"></div>
+				<div id="placementBottom" class="rectangleB"></div>
+			</div>
+		</header>
+		<div class="columnLogIn"></div>
+		<div class="columnLogIn">
+			<div id="login">
+				<div class="break"></div>
+				<h1 id="logTitle">Log In</h1>
+				<div id="loginDiv">
+					<script type="text/javascript" src="js/code.js"></script>
+					<input type="text" id="loginName" placeholder="Username" /><br />
+					<input type="password" id="loginPassword" placeholder="Password"/><br />
+					<button type="button" id="loginButton" class="buttons" onclick="doLogin();"> Log In </button>
+					<br>
+					<span id="loginResult"></span>
+				</div>
+			</div>
+		</div>
+		<div class="columnLogIn">
+			<div id="signup">
+					<div class="break"></div>
+					<h1 id="signupText">Don't have an account?</h1>
+					<a id="loginButton" href="Signup.html">Sign Up</a>
+			</div>
+		</div>
+		<div class="columnLogIn"></div>
+
+
+	</body>
+</html>
