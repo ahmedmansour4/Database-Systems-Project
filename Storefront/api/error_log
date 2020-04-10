@@ -1,0 +1,308 @@
+[06-Apr-2020 18:59:00 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'ahmed'@'ip-107-180-47-58.ip.secureserver.net' (using password: YES) in /home/u9af9dsahn6e/public_html/api/SignUp.php on line 20
+[06-Apr-2020 19:18:34 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/api/SignUp.php on line 7
+[06-Apr-2020 19:18:34 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'ahmed'@'ip-107-180-47-58.ip.secureserver.net' (using password: YES) in /home/u9af9dsahn6e/public_html/api/SignUp.php on line 20
+[06-Apr-2020 19:23:31 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/api/SignUp.php on line 7
+[06-Apr-2020 19:23:31 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'ahmed'@'ip-107-180-47-58.ip.secureserver.net' (using password: YES) in /home/u9af9dsahn6e/public_html/api/SignUp.php on line 20
+[06-Apr-2020 19:27:18 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/api/SignUp.php on line 7
+[06-Apr-2020 19:27:18 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'ip-107-180-47-58.ip.secureserver.net' (using password: NO) in /home/u9af9dsahn6e/public_html/api/SignUp.php on line 20
+[06-Apr-2020 19:30:02 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/api/SignUp.php on line 7
+[06-Apr-2020 19:30:02 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'ahmed'@'ip-107-180-47-58.ip.secureserver.net' (using password: YES) in /home/u9af9dsahn6e/public_html/api/SignUp.php on line 20
+[06-Apr-2020 20:23:49 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'jason'@'ip-107-180-47-58.ip.secureserver.net' (using password: YES) in /home/u9af9dsahn6e/public_html/Storefront/api/getUserDiscountCodes.php on line 8
+[06-Apr-2020 20:27:09 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/getUserDiscountCodes.php on line 8
+[06-Apr-2020 20:27:09 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/getUserDiscountCodes.php on line 21
+[06-Apr-2020 20:27:09 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/getUserDiscountCodes.php on line 44
+[06-Apr-2020 20:27:09 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/getUserDiscountCodes.php on line 32
+[06-Apr-2020 20:37:54 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/getUserDiscountCodes.php on line 8
+[06-Apr-2020 20:37:54 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/getUserDiscountCodes.php on line 20
+[06-Apr-2020 20:37:54 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/getUserDiscountCodes.php on line 43
+[06-Apr-2020 20:37:54 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/getUserDiscountCodes.php on line 31
+[06-Apr-2020 20:38:28 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'jason'@'ip-107-180-47-58.ip.secureserver.net' (using password: YES) in /home/u9af9dsahn6e/public_html/Storefront/api/getUserDiscountCodes.php on line 8
+[06-Apr-2020 20:38:43 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/getUserDiscountCodes.php on line 8
+[06-Apr-2020 20:38:43 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/getUserDiscountCodes.php on line 20
+[06-Apr-2020 20:38:43 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/getUserDiscountCodes.php on line 43
+[06-Apr-2020 20:38:43 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/getUserDiscountCodes.php on line 31
+[06-Apr-2020 21:30:29 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[06-Apr-2020 21:30:29 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[06-Apr-2020 21:30:29 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 30
+[06-Apr-2020 21:30:29 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 33
+[06-Apr-2020 21:30:29 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 43
+[06-Apr-2020 21:30:29 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 45
+[06-Apr-2020 21:30:29 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 52
+[06-Apr-2020 21:39:15 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[06-Apr-2020 21:39:15 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[06-Apr-2020 21:39:15 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 30
+[06-Apr-2020 21:39:15 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 33
+[06-Apr-2020 21:39:15 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 43
+[06-Apr-2020 21:39:15 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 45
+[06-Apr-2020 21:39:15 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 52
+[06-Apr-2020 21:40:26 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[06-Apr-2020 21:40:26 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[06-Apr-2020 21:40:26 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 30
+[06-Apr-2020 21:40:26 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 33
+[06-Apr-2020 21:40:26 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 43
+[06-Apr-2020 21:40:26 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 45
+[06-Apr-2020 21:40:26 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 52
+[06-Apr-2020 21:42:07 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[06-Apr-2020 21:42:07 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[06-Apr-2020 21:42:08 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 30
+[06-Apr-2020 21:42:08 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 33
+[06-Apr-2020 21:42:08 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 43
+[06-Apr-2020 21:42:08 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 45
+[06-Apr-2020 21:42:08 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 52
+[06-Apr-2020 21:45:10 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[06-Apr-2020 21:45:10 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[06-Apr-2020 21:45:10 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 30
+[06-Apr-2020 21:45:10 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 33
+[06-Apr-2020 21:45:10 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 43
+[06-Apr-2020 21:45:10 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 45
+[06-Apr-2020 21:45:10 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 52
+[06-Apr-2020 21:47:45 UTC] PHP Notice:  Undefined index: userID in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 6
+[06-Apr-2020 21:47:45 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[06-Apr-2020 21:47:45 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[06-Apr-2020 21:47:45 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 30
+[06-Apr-2020 21:47:45 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 33
+[06-Apr-2020 21:47:45 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 43
+[06-Apr-2020 21:47:45 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 45
+[06-Apr-2020 21:47:45 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 52
+[06-Apr-2020 21:49:06 UTC] PHP Notice:  Undefined index: userID in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 6
+[06-Apr-2020 21:49:06 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[06-Apr-2020 21:49:06 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[06-Apr-2020 21:49:06 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 30
+[06-Apr-2020 21:49:06 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 33
+[06-Apr-2020 21:49:06 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 43
+[06-Apr-2020 21:49:06 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 45
+[06-Apr-2020 21:49:06 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 52
+[06-Apr-2020 21:50:37 UTC] PHP Notice:  Undefined index: userID in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 6
+[06-Apr-2020 21:50:37 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[06-Apr-2020 21:50:37 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[06-Apr-2020 21:50:37 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 32
+[06-Apr-2020 21:50:37 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 34
+[06-Apr-2020 21:50:37 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 40
+[06-Apr-2020 21:50:37 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 43
+[06-Apr-2020 21:50:37 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 53
+[06-Apr-2020 21:50:37 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 55
+[06-Apr-2020 21:50:37 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 62
+[06-Apr-2020 21:50:56 UTC] PHP Notice:  Undefined index: userID in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 6
+[06-Apr-2020 21:50:56 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[06-Apr-2020 21:50:56 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[06-Apr-2020 21:50:56 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 32
+[06-Apr-2020 21:50:56 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 34
+[06-Apr-2020 21:50:56 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 40
+[06-Apr-2020 21:50:56 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 43
+[06-Apr-2020 21:50:56 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 53
+[06-Apr-2020 21:50:56 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 55
+[06-Apr-2020 21:50:56 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 62
+[06-Apr-2020 21:53:17 UTC] PHP Notice:  Undefined index: userID in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 6
+[06-Apr-2020 21:53:17 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[06-Apr-2020 21:53:17 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[06-Apr-2020 21:53:17 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 31
+[06-Apr-2020 21:53:17 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 34
+[06-Apr-2020 21:53:17 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 53
+[06-Apr-2020 21:53:26 UTC] PHP Notice:  Undefined index: userID in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 6
+[06-Apr-2020 21:53:26 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[06-Apr-2020 21:53:26 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[06-Apr-2020 21:53:26 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 31
+[06-Apr-2020 21:53:26 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 34
+[06-Apr-2020 21:53:26 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 44
+[06-Apr-2020 21:53:26 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 46
+[06-Apr-2020 21:53:26 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 53
+[06-Apr-2020 21:54:57 UTC] PHP Notice:  Undefined index: userID in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 6
+[06-Apr-2020 21:54:57 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[06-Apr-2020 21:54:57 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[06-Apr-2020 21:54:57 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 31
+[06-Apr-2020 21:54:57 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 34
+[06-Apr-2020 21:54:57 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 44
+[06-Apr-2020 21:54:57 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 46
+[06-Apr-2020 21:54:57 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 53
+[06-Apr-2020 21:55:13 UTC] PHP Notice:  Undefined index: userID in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 6
+[06-Apr-2020 21:55:13 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[06-Apr-2020 21:55:13 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[06-Apr-2020 21:55:13 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 31
+[06-Apr-2020 21:55:13 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 34
+[06-Apr-2020 21:55:13 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 44
+[06-Apr-2020 21:55:13 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 46
+[06-Apr-2020 21:55:13 UTC] PHP Notice:  Undefined variable: firstName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 72
+[06-Apr-2020 21:55:13 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 53
+[06-Apr-2020 21:57:46 UTC] PHP Notice:  Undefined index: userID in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 6
+[06-Apr-2020 21:57:46 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[06-Apr-2020 21:57:46 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[06-Apr-2020 21:57:46 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 31
+[06-Apr-2020 21:57:46 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 34
+[06-Apr-2020 21:57:46 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 44
+[06-Apr-2020 21:57:46 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 46
+[06-Apr-2020 21:57:46 UTC] PHP Notice:  Undefined variable: firstName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 72
+[06-Apr-2020 21:57:46 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 53
+[06-Apr-2020 21:58:14 UTC] PHP Notice:  Undefined index: userID in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 6
+[06-Apr-2020 21:58:14 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[06-Apr-2020 21:58:14 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[06-Apr-2020 21:58:14 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 31
+[06-Apr-2020 21:58:14 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 34
+[06-Apr-2020 21:58:14 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 44
+[06-Apr-2020 21:58:14 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 46
+[06-Apr-2020 21:58:14 UTC] PHP Notice:  Undefined variable: firstName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 72
+[06-Apr-2020 21:58:14 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 53
+[06-Apr-2020 21:58:47 UTC] PHP Notice:  Undefined index: userID in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 6
+[06-Apr-2020 21:58:47 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[06-Apr-2020 21:58:47 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[06-Apr-2020 21:58:47 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 31
+[06-Apr-2020 21:58:47 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 34
+[06-Apr-2020 21:58:47 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 45
+[06-Apr-2020 21:58:47 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 47
+[06-Apr-2020 21:58:47 UTC] PHP Notice:  Undefined variable: firstName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 73
+[06-Apr-2020 21:58:47 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 54
+[06-Apr-2020 22:00:27 UTC] PHP Notice:  Undefined index: userID in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 6
+[06-Apr-2020 22:00:27 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[06-Apr-2020 22:00:27 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[06-Apr-2020 22:00:27 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 31
+[06-Apr-2020 22:00:27 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 34
+[06-Apr-2020 22:00:27 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 44
+[06-Apr-2020 22:00:27 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 46
+[06-Apr-2020 22:00:27 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 53
+[06-Apr-2020 22:01:29 UTC] PHP Notice:  Undefined index: userID in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 6
+[06-Apr-2020 22:01:29 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[06-Apr-2020 22:01:29 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[06-Apr-2020 22:01:29 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 31
+[06-Apr-2020 22:01:29 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 34
+[06-Apr-2020 22:01:29 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 44
+[06-Apr-2020 22:01:29 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 46
+[06-Apr-2020 22:01:29 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 53
+[06-Apr-2020 22:01:50 UTC] PHP Notice:  Undefined index: userID in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 6
+[06-Apr-2020 22:01:50 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[06-Apr-2020 22:01:50 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[06-Apr-2020 22:01:50 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 31
+[06-Apr-2020 22:01:50 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 34
+[06-Apr-2020 22:01:50 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 44
+[06-Apr-2020 22:01:50 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 46
+[06-Apr-2020 22:01:50 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 53
+[06-Apr-2020 22:03:01 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[06-Apr-2020 22:03:01 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[06-Apr-2020 22:03:01 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 31
+[06-Apr-2020 22:03:01 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 34
+[06-Apr-2020 22:03:01 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 44
+[06-Apr-2020 22:03:01 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 46
+[06-Apr-2020 22:03:01 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 53
+[06-Apr-2020 22:03:18 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[06-Apr-2020 22:03:18 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[06-Apr-2020 22:03:18 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 31
+[06-Apr-2020 22:03:18 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 34
+[06-Apr-2020 22:03:18 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 44
+[06-Apr-2020 22:03:18 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 46
+[06-Apr-2020 22:03:18 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 53
+[06-Apr-2020 22:06:21 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[06-Apr-2020 22:06:21 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[06-Apr-2020 22:06:21 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 31
+[06-Apr-2020 22:06:21 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 34
+[06-Apr-2020 22:06:21 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 44
+[06-Apr-2020 22:06:21 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 46
+[06-Apr-2020 22:06:21 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 53
+[06-Apr-2020 22:06:59 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[06-Apr-2020 22:06:59 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[06-Apr-2020 22:06:59 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 31
+[06-Apr-2020 22:06:59 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 34
+[06-Apr-2020 22:06:59 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 44
+[06-Apr-2020 22:06:59 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 46
+[06-Apr-2020 22:06:59 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 53
+[09-Apr-2020 18:45:02 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[09-Apr-2020 18:45:02 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[09-Apr-2020 18:45:02 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 31
+[09-Apr-2020 18:45:02 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 34
+[09-Apr-2020 18:45:02 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 44
+[09-Apr-2020 18:45:02 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 46
+[09-Apr-2020 18:45:02 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 53
+[09-Apr-2020 18:46:16 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[09-Apr-2020 18:46:16 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[09-Apr-2020 18:46:16 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 31
+[09-Apr-2020 18:46:16 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 34
+[09-Apr-2020 18:46:16 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 44
+[09-Apr-2020 18:46:16 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 46
+[09-Apr-2020 18:46:16 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 53
+[09-Apr-2020 18:48:11 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[09-Apr-2020 18:48:11 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[09-Apr-2020 18:48:11 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 31
+[09-Apr-2020 18:48:11 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 34
+[09-Apr-2020 18:48:11 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 44
+[09-Apr-2020 18:48:11 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 46
+[09-Apr-2020 18:48:11 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 53
+[09-Apr-2020 18:49:24 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[09-Apr-2020 18:49:24 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[09-Apr-2020 18:49:24 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 31
+[09-Apr-2020 18:49:24 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 34
+[09-Apr-2020 18:49:24 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 44
+[09-Apr-2020 18:49:24 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 46
+[09-Apr-2020 18:49:24 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 53
+[09-Apr-2020 18:53:12 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[09-Apr-2020 18:53:12 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[09-Apr-2020 18:53:12 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 31
+[09-Apr-2020 18:53:12 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 34
+[09-Apr-2020 18:53:12 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 44
+[09-Apr-2020 18:53:12 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 46
+[09-Apr-2020 18:53:12 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 53
+[09-Apr-2020 18:57:18 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[09-Apr-2020 18:57:18 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'ahmed'@'ip-107-180-47-58.ip.secureserver.net' (using password: YES) in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[09-Apr-2020 18:57:53 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[09-Apr-2020 18:57:53 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[09-Apr-2020 18:57:53 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 31
+[09-Apr-2020 18:57:53 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 34
+[09-Apr-2020 18:57:53 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 44
+[09-Apr-2020 18:57:53 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 46
+[09-Apr-2020 18:57:53 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 53
+[09-Apr-2020 18:58:13 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[09-Apr-2020 18:58:13 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[09-Apr-2020 18:58:13 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 31
+[09-Apr-2020 18:58:13 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 34
+[09-Apr-2020 18:58:13 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 44
+[09-Apr-2020 18:58:13 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 46
+[09-Apr-2020 18:58:13 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 53
+[09-Apr-2020 19:07:28 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[09-Apr-2020 19:07:28 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'ahmed'@'ip-107-180-47-58.ip.secureserver.net' (using password: YES) in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[09-Apr-2020 19:07:43 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[09-Apr-2020 19:07:43 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[09-Apr-2020 19:07:43 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 31
+[09-Apr-2020 19:07:43 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 34
+[09-Apr-2020 19:07:43 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 44
+[09-Apr-2020 19:07:43 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 46
+[09-Apr-2020 19:07:43 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 53
+[09-Apr-2020 19:08:31 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[09-Apr-2020 19:08:31 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[09-Apr-2020 19:08:31 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 31
+[09-Apr-2020 19:08:31 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 34
+[09-Apr-2020 19:08:31 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 44
+[09-Apr-2020 19:08:31 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 46
+[09-Apr-2020 19:08:31 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 53
+[09-Apr-2020 19:09:34 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[09-Apr-2020 19:09:34 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[09-Apr-2020 19:09:34 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 31
+[09-Apr-2020 19:09:34 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 34
+[09-Apr-2020 19:09:34 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 44
+[09-Apr-2020 19:09:34 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 46
+[09-Apr-2020 19:09:34 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 53
+[09-Apr-2020 19:12:35 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[09-Apr-2020 19:12:35 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'ahmed'@'ip-107-180-47-58.ip.secureserver.net' (using password: YES) in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[09-Apr-2020 19:12:58 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[09-Apr-2020 19:12:58 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[09-Apr-2020 19:12:58 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 30
+[09-Apr-2020 19:12:58 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 33
+[09-Apr-2020 19:12:58 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 43
+[09-Apr-2020 19:12:58 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 45
+[09-Apr-2020 19:12:58 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 52
+[09-Apr-2020 19:13:34 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[09-Apr-2020 19:13:34 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[09-Apr-2020 19:13:34 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 43
+[09-Apr-2020 19:13:34 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 45
+[09-Apr-2020 19:13:34 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 52
+[09-Apr-2020 19:14:49 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[09-Apr-2020 19:14:49 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[09-Apr-2020 19:14:49 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 43
+[09-Apr-2020 19:14:49 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 46
+[09-Apr-2020 19:14:49 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 53
+[09-Apr-2020 19:16:50 UTC] PHP Parse error:  syntax error, unexpected 'inserting' (T_STRING) in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 28
+[09-Apr-2020 19:16:52 UTC] PHP Parse error:  syntax error, unexpected 'inserting' (T_STRING) in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 28
+[09-Apr-2020 19:17:15 UTC] PHP Parse error:  syntax error, unexpected 'inserting' (T_STRING) in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 28
+[09-Apr-2020 19:17:42 UTC] PHP Parse error:  syntax error, unexpected 'inserting' (T_STRING) in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 28
+[09-Apr-2020 19:29:52 UTC] PHP Notice:  Undefined index: userName in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 7
+[09-Apr-2020 19:29:52 UTC] PHP Warning:  mysqli::__construct() expects parameter 5 to be int, string given in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 20
+[09-Apr-2020 19:29:52 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 30
+[09-Apr-2020 19:29:52 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 33
+[09-Apr-2020 19:29:52 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 43
+[09-Apr-2020 19:29:52 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 46
+[09-Apr-2020 19:29:52 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/u9af9dsahn6e/public_html/Storefront/api/SignUp.php on line 53
