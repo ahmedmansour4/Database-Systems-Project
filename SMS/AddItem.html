@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<title>Add Item to Inventory</title>
+
+		
+
+	</head>
+
+	<body>
+	
+		<div class="columnSignInMid" id="signupPage">
+
+				<div id="topSignUp">
+
+					<div id="addItemToInvHeader"></div>
+
+					<h1>Add Item to Inventory</h1>
+
+				</div>
+
+				<div id="itemInputSheet">
+
+						<div id="topInnerSignUp"></div>
+
+						<div id="center">
+
+							<input id="productID" type="text" class="productInfo" placeholder="Product ID"/><br />
+							
+							<input id="productName" type="text" class="productInfo" placeholder="Product Name"/><br />
+							
+							<input id="productDesc" type="text" class="productInfo" placeholder="Product Description"/><br />
+
+							<input id="productPrice" type="number" class="productInfo" placeholder="Product's Price in $"/><br />
+
+							<input id="amazonLink" type="text" class="productInfo" placeholder="Link to Amazon"/><br />
+							
+							<input id="imageLink" type="text" class="productInfo" placeholder="Image Url"/><br />
+
+							
+
+							
+
+							<script type="text/javascript" src="addItemCode.js"></script>
+
+							<button type="button" id="addItemButton" class="buttons" onclick="doAddItem();"> Add Item </button>
+
+							<span id="addItemResult"></span>
+
+						</div>
+
+				</div>
+				
+				<h1> Delete Item from Inventory</h1>
+				
+				<label for="deletionChoice">Choose Deletion Method</label>
+				<select id="deletionChoice">
+					<option value="1" selected="selected">ID</option>
+					<option value="2">Name</option>
+				</select>
+				
+				<br/>
+				<label for="deletionIdentification">Type the ID/Name of the item you wish to delete.</label><br/>
+				<input id="deletionIdentification" type="text"><br/>
+				
+				<script type="text/javascript" src="removeItemCode.js"></script>
+				
+				<button type="button" id="deleteItemButton" class="buttons" onclick="doRemoveItem();">Remove Item </button>
+				
+				<span id="deleteItemResult"></span>
+				
+				
+				
+				
+				<!--  
+				<form action="AddItem2.php" method="post">
+					Product ID: <input type="text" name="productID" required><br>
+					Product Name: <input type="text" name="productName" required><br>
+					Product Description: <input type="text" name="productDesc"><br>
+					Product Price: $<input type="number" name="productPrice" required><br>
+					Link to Amazon: <input type="text" name="amazonLink"><br>
+					Image Url: <input type="text" namge="imageLink"><br>
+					<input type="submit" name="addItemButton" value="Add Item">
+				</form>
+				-->
+
+		</div>
+	
+	
+	
+	</body>
+
+</html>
