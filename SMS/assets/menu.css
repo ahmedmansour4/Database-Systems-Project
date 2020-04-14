@@ -1,0 +1,99 @@
+#cssmenu {
+    background: none repeat scroll 0 0 #333333;
+    font-family: "Oxygen Mono",Tahoma,Arial,sans-serif;
+    font-size: 12px;
+    width: 200px;
+}
+#cssmenu:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+#cssmenu {
+    border: 0 none;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+#cssmenu:before {
+    content: "";
+    display: block;
+}#cssmenu ul, #cssmenu ul li, #cssmenu ul ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+#cssmenu ul {
+    float: left;
+    position: relative;
+    z-index: 597;
+}
+#cssmenu > ul {
+    width: 200px;
+}
+#cssmenu ul li {
+    float: left;
+    line-height: 1em;
+    min-height: 1px;
+    position: relative;
+    vertical-align: middle;
+}
+#cssmenu ul li {
+    float: none;
+}
+#cssmenu > ul > li > a {
+    border-right: 4px solid #1b9bff;
+    color: #ffffff;
+}
+#cssmenu a {
+    color: #ffffff;
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a, a:visited, a:link {
+    color: #30708c;
+}
+#cssmenu > ul > li.active a {
+    background: none repeat scroll 0 0 #1b9bff;
+}
+#cssmenu ul li.has-sub > a:after {
+    content: "+";
+    margin-top: -6px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+}#cssmenu ul ul {left: 99%;  visibility: hidden;position: absolute;
+    top: 1px;
+    border: 1px solid #0082e7;border-radius: 0 3px 3px 0;   width: 200px;margin-top: 1px;
+}
+#cssmenu ul li {
+    float: left;
+    line-height: 1em;
+    min-height: 1px;
+    position: relative;
+    vertical-align: middle;
+}
+
+#cssmenu ul ul li {
+    border-bottom: 1px solid #0082e7; font-weight: normal; float: none;
+}
+#cssmenu ul li.has-sub > a:after {
+    content: "+";
+    margin-top: -6px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+}
+#cssmenu ul ul ul {
+    right: 0;
+    top: -2px;
+}
+#cssmenu ul li {  width: 100%;}
+
+#cssmenu > ul > li:hover {
+    background: none repeat scroll 0 0 #1b9bff;
+}
+#cssmenu > ul > li:hover > ul{visibility: visible;}
+#cssmenu > ul > li > ul > li:hover > ul{visibility: visible;}

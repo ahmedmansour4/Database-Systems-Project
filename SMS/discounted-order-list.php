@@ -79,72 +79,83 @@ if ($statementObj->num_rows <= 0)
     $message = "No orders available for this discount code.";
 }
 ?>
-
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Discounted Order List</title>
+        <title>SMS Discounted Orders</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+        <link href="assets/styles.css" rel="stylesheet">
     </head>
     <body>
-        <div id="Header">
-            <h2>
-                List of Discounted Orders
-            </h2>
+        <div class="header">
+            <img src="Amazoff-logo.png" style="height: 150px;" />
+            <span style="padding-left: 100px;">Store Management System - Discounted Orders</span>            
         </div>        
-        <div id="Body">
-            <table>
-                <tr>
-                    <th>Order Id</th>
-                    <th>UserName</th>
-                    <th>Email</th>
-                    <th>Billing Address</th>
-                    <th>Shipping Address</th>
-                    <th>Product Name</th>
-                    <th>Description</th>
-                    <th>Url</th>
-                    <th>Image Url</th>
-                    <th>Price</th>
-                    <th>Discount Percent</th>
-                    <th>Discounted Price</th>
-                    <th>Credit Card Company</th>
-                    <th>Credit Card Expiration Month</th>
-                    <th>Credit Card Expiration Year</th>
-                    <th>Credit Card Name</th>
-                    <th>Credit Card Number</th>
-                    <th>Credit Card Security Code</th>
-                    <th>Created Date</th>
-
-                </tr>
-                <?php while($statementObj->fetch()): ?>
+        <section class="container" >
+            <div class="sidenav">
+                <div id="cssmenu">
+                    <ul>
+                       <li><a href="index.php"><span>Home</span></a></li>
+                       <li class="active"><a href="discount-list.php">Expired Codes</a></li>
+                       <li><a href="product-list.php">Potential Buyers</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main">
+                <table>
                     <tr>
-                        <td><?=$OrderId?></td>
-                        <td><?=$UserName?></td>
-                        <td><?=$Email?></td>
-                        <td><?=$BillingAddress?></td>
-                        <td><?=$ShippingAddress?></td>
-                        <td><?=$ProductName?></td>
-                        <td><?=$Description?></td>
-                        <td><?=$AmazonUrl?></td>
-                        <td><?=$ImageUrl?></td>
-                        <td><?=$Price?></td>
-                        <td><?=$DiscountPercent?></td>
-                        <td><?=$DiscountedPrice?></td>
-                        <td><?=$CreditCardCompany?></td>
-                        <td><?=$CreditCardExpirationMonth?></td>
-                        <td><?=$CreditCardExpirationYear?></td>
-                        <td><?=$CreditCardName?></td>
-                        <td><?=$CreditCardNumber?></td>
-                        <td><?=$CreditCardSecurityCode?></td>
-                        <td><?=$CreatedDate?></td>
-                    </tr>
-                <?php endwhile; ?>
-            </table>
-            <?=$message?>
-        </div>
-        <a href='discount-list.php'>Go back to the discount list</a>
-	</body>
-</html>
+                        <th>Order Id</th>
+                        <th>UserName</th>
+                        <th>Email</th>
+                        <th>Billing Address</th>
+                        <th>Shipping Address</th>
+                        <th>Product Name</th>
+                        <th>Description</th>
+                        <th>Url</th>
+                        <th>Image Url</th>
+                        <th>Price</th>
+                        <th>Discount Percent</th>
+                        <th>Discounted Price</th>
+                        <th>Credit Card Company</th>
+                        <th>Credit Card Expiration Month</th>
+                        <th>Credit Card Expiration Year</th>
+                        <th>Credit Card Name</th>
+                        <th>Credit Card Number</th>
+                        <th>Credit Card Security Code</th>
+                        <th>Created Date</th>
 
+                    </tr>
+                    <?php while($statementObj->fetch()): ?>
+                        <tr>
+                            <td><?=$OrderId?></td>
+                            <td><?=$UserName?></td>
+                            <td><?=$Email?></td>
+                            <td><?=$BillingAddress?></td>
+                            <td><?=$ShippingAddress?></td>
+                            <td><?=$ProductName?></td>
+                            <td><?=$Description?></td>
+                            <td><?=$AmazonUrl?></td>
+                            <td><?=$ImageUrl?></td>
+                            <td><?=$Price?></td>
+                            <td><?=$DiscountPercent?></td>
+                            <td><?=$DiscountedPrice?></td>
+                            <td><?=$CreditCardCompany?></td>
+                            <td><?=$CreditCardExpirationMonth?></td>
+                            <td><?=$CreditCardExpirationYear?></td>
+                            <td><?=$CreditCardName?></td>
+                            <td><?=$CreditCardNumber?></td>
+                            <td><?=$CreditCardSecurityCode?></td>
+                            <td><?=$CreatedDate?></td>
+                        </tr>
+                    <?php endwhile; ?>
+                </table>
+                <?=$message?>
+                <a href='discount-list.php'>Go back to the discount list</a>
+            </div>
+            
+        </section>
+    </body>
+</html>
 <?php
 
 $statementObj->close();

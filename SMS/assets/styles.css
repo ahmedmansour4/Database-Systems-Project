@@ -1,0 +1,164 @@
+* { padding: 0; margin: 0; }
+html, body, .container {
+    min-height: 100% !important;
+    height: 100%;
+}
+body  {
+    background: rgba(255, 253, 253, 0.87);
+    font-family: 'Calibri', 'Arial';
+    color: #2f292b;
+    height: 100%;
+    margin: 0;
+    min-width: 100%;
+}
+.header {
+    background: #2f292b;
+    color: #cc9866;
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    font-size: 2em;
+    font-weight: bold;
+    display: flex;
+    align-items:center;
+}
+.container {
+    min-height: 100% !important;
+    height: 100%;
+}
+.sidenav{
+    border-top: #2f292b solid 2px;
+    background: #cc9866;
+    color: #2f292b;
+    width: 135px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    min-height: 100% !important;
+    height: 100%;
+}
+.main{
+    border-top: #cc9866 solid 2px;
+    margin-left: 135px;
+    background: #2f292b;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 150px;
+    color: white;
+    min-height: 100% !important;
+    height: 100%;
+}
+
+#cssmenu {
+    font-family: "Oxygen Mono",Tahoma,Arial,sans-serif;
+    font-size: .8em;
+}
+#cssmenu:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+#cssmenu {
+    border: 0 none;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+#cssmenu:before {
+    content: "";
+    display: block;
+}#cssmenu ul, #cssmenu ul li, #cssmenu ul ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+#cssmenu ul {
+    float: left;
+    position: relative;
+    z-index: 597;
+}
+#cssmenu > ul {
+    width: 135px;
+}
+#cssmenu ul li {
+    float: left;
+    line-height: 1em;
+    min-height: 1px;
+    position: relative;
+    vertical-align: middle;
+}
+#cssmenu ul li {
+    float: none;
+}
+#cssmenu > ul > li > a {
+    border-right: 4px solid #2f292b;
+    color: #2f292b;
+}
+#cssmenu a {
+    color: #ffffff;
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a, a:visited, a:link {
+    color: #30708c;
+}
+#cssmenu > ul > li.active a {
+    background: none repeat scroll 0 0 #2f292b;
+    color: #ffffff;
+}
+#cssmenu ul li.has-sub > a:after {
+    content: "+";
+    margin-top: -6px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+}
+#cssmenu ul ul {
+    left: 99%;  
+    visibility: hidden;
+    position: absolute;
+    top: 1px;
+    border: 1px solid #2f292b;
+    border-radius: 0 3px 3px 0;   
+    width: 135px;
+    margin-top: 1px;
+}
+#cssmenu ul li {
+    float: left;
+    line-height: 1em;
+    min-height: 1px;
+    position: relative;
+    vertical-align: middle;
+}
+
+#cssmenu ul ul li {
+    border-bottom: 1px solid #2f292b; 
+    font-weight: normal; 
+    float: none;
+}
+#cssmenu ul li.has-sub > a:after {
+    content: "+";
+    margin-top: -6px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+}
+#cssmenu ul ul ul {
+    right: 0;
+    top: -2px;
+}
+#cssmenu ul li {  width: 100%;}
+
+#cssmenu > ul > li:hover {
+    background: none repeat scroll 0 0 #cc9866;
+}
+#cssmenu > ul > li:hover > ul{visibility: visible;}
+#cssmenu > ul > li > ul > li:hover > ul{visibility: visible;}
+
+td, th {
+    border: 1px solid white;
+    padding: 0.5rem;
+
+  }

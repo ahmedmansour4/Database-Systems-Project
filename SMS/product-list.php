@@ -34,40 +34,52 @@ $resultObj = $connection->query($query);
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Product List</title>
+        <title>SMS Products Potential Buyers</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+        <link href="assets/styles.css" rel="stylesheet">
     </head>
     <body>
-        <div id="Header">
-            <h2>
-                    Product list
-            </h2>
+        <div class="header">
+            <img src="Amazoff-logo.png" style="height: 150px;" />
+            <span style="padding-left: 100px;">Store Management System - Products Potential Buyers</span>            
         </div>        
-        <div id="Body">
-            <table>
-                <tr>
-                    <th>Product ID</th>
-                    <th>Name</th>
-                    <th>Description</th>
-                    <th>Price</th>
-                    <th>Amazon Url</th>
-                    <th>Image Url</th>
-                    <th>Possible Buyers</th>
-                </tr>
-                <?php while($row = $resultObj->fetch_assoc()): ?>
+        <section class="container" >
+            <div class="sidenav">
+                <div id="cssmenu">
+                    <ul>
+                       <li><a href="index.php"><span>Home</span></a></li>
+                       <li><a href="discount-list.php">Expired Codes</a></li>
+                       <li class="active"><a href="product-list.php">Potential Buyers</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main">
+                <table>
                     <tr>
-                        <td><?=$row['ProductID']?></td>
-                        <td><?=$row['Name']?></td>
-                        <td><?=$row['Description']?></td>
-                        <td><?=$row['Price']?></td>
-                        <td><?=$row['AmazonUrl']?></td>
-                        <td><?=$row['ImageUrl']?></td>
-                        <td><a href="possible-buyer-list.php?<?=$row['ProductID']?>"><?=$row['PossibleBuyers']?></a></td>
+                        <th>Product ID</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Amazon Url</th>
+                        <th>Image Url</th>
+                        <th>Possible Buyers</th>
                     </tr>
-                <?php endwhile; ?>
-            </table>
-        </div>
-        <a href="index.php">Go back home.</a>
-	</body>
+                    <?php while($row = $resultObj->fetch_assoc()): ?>
+                        <tr>
+                            <td><?=$row['ProductID']?></td>
+                            <td><?=$row['Name']?></td>
+                            <td><?=$row['Description']?></td>
+                            <td><?=$row['Price']?></td>
+                            <td><?=$row['AmazonUrl']?></td>
+                            <td><?=$row['ImageUrl']?></td>
+                            <td><a href="possible-buyer-list.php?<?=$row['ProductID']?>"><?=$row['PossibleBuyers']?></a></td>
+                        </tr>
+                    <?php endwhile; ?>
+                </table>
+            </div>
+            
+        </section>
+    </body>
 </html>
 
 <?php
