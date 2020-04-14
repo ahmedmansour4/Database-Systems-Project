@@ -61,7 +61,6 @@ $resultObj = $connection->query($query);
                         <td><?=$row['Price']?></td>
                         <td><?=$row['AmazonUrl']?></td>
                         <td><?=$row['ImageUrl']?></td>
-                        <td><?=$row['PossibleBuyers']?></td>
                         <td><a href="possible-buyer-list.php?<?=$row['ProductID']?>"><?=$row['PossibleBuyers']?></a></td>
                     </tr>
                 <?php endwhile; ?>

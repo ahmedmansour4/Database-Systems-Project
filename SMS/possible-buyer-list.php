@@ -19,19 +19,19 @@ $productId = $_SERVER['QUERY_STRING'];
 
 $query = "
     SELECT 
-        `User`.`UserId`,
-        `User`.`UserName`,
-        `User`.`FirstName`,
-        `User`.`LastName`,
-        `User`.`Email`,
-        `User`.`Phone`
+        USR.`UserId`,
+        USR.`UserName`,
+        USR.`FirstName`,
+        USR.`LastName`,
+        USR.`Email`,
+        USR.`Phone`
     FROM 
             amazoffdb.`User` USR 
     WHERE 
-            USR.UserID IN (SELECT UserID FROM amazoffdb.`Order` WHERE ProductID=?);";
+            USR.UserID IN (SELECT UserID FROM amazoffdb.`Order` WHERE ProductID = ?);";
 
 $statementObj = $connection->prepare($query);
-$statementObj->bind_param("d", $productId);
+$statementObj->bind_param("i", $productId);
 $statementObj->execute();
 
 $statementObj->bind_result($UserId,$UserName,$FirstName,$LastName,$Email,$Phone);
