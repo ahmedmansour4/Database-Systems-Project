@@ -50,6 +50,8 @@ $resultObj = $connection->query($query);
                        <li><a href="index.php"><span>Home</span></a></li>
                        <li><a href="discount-list.php">Expired Codes</a></li>
                        <li class="active"><a href="product-list.php">Potential Buyers</a></li>
+                       <li><a href="ItemAdding/AdjustDiscountPolicy.html">Adjust Discounts</a></li>
+					   <li><a href="ItemAdding/AddItem.html">Add or Delete Items</a></li>
                     </ul>
                 </div>
             </div>
@@ -58,21 +60,17 @@ $resultObj = $connection->query($query);
                     <tr>
                         <th>Product ID</th>
                         <th>Name</th>
-                        <th>Description</th>
                         <th>Price</th>
-                        <th>Amazon Url</th>
-                        <th>Image Url</th>
-                        <th>Possible Buyers</th>
+                        <th>Image</th>
+                        <th>Opportunities</th>
                     </tr>
                     <?php while($row = $resultObj->fetch_assoc()): ?>
                         <tr>
                             <td><?=$row['ProductID']?></td>
-                            <td><?=$row['Name']?></td>
-                            <td><?=$row['Description']?></td>
+                            <td><a style="color: white; text-decoration: underline;" href="<?=$row['AmazonUrl']?>"><?=$row['Name']?></a></td>
                             <td><?=$row['Price']?></td>
-                            <td><?=$row['AmazonUrl']?></td>
-                            <td><?=$row['ImageUrl']?></td>
-                            <td><a href="possible-buyer-list.php?<?=$row['ProductID']?>"><?=$row['PossibleBuyers']?></a></td>
+                            <td><img style="width:100px" src="<?=$row['ImageUrl']?>" /></td>
+                            <td><a style="color: white; text-decoration: underline;" href="possible-buyer-list.php?<?=$row['ProductID']?>">See possible <?=$row['PossibleBuyers']?> buyers</a></td>
                         </tr>
                     <?php endwhile; ?>
                 </table>

@@ -16,6 +16,51 @@ else
     header('Location: login.php');   
 }
 $discountCode = $_SERVER['QUERY_STRING'];
+$ProductName = "";
+$Description = "";
+$AmazonUrl = "";
+$ImageUrl = "";
+$Price = 0.0;
+$DiscountPercent = 0;
+$DiscountedPrice = 0.0;
+$OrderCount = 0;
+
+$productquery = "
+    SELECT DISTINCT
+        PRD.`Name` ProductName,
+        PRD.Description,
+        PRD.AmazonUrl,
+        PRD.ImageUrl,
+        PRD.Price,
+        DCD.DiscountPercent,
+        CAST((PRD.Price - (PRD.Price*DCD.DiscountPercent/100)) AS DECIMAL(12,2)) DiscountedPrice,
+        `amazoffdb`.fnGetOrderCountForDiscountCode(ORD.DiscountCode) OrderCount
+
+    FROM 
+        amazoffdb.`Order` ORD 	
+        INNER JOIN amazoffdb.`Product` PRD ON (ORD.ProductID=PRD.ProductID)
+        INNER JOIN amazoffdb.`DiscountCode` DCD ON (ORD.DiscountCode=DCD.DiscountCode)
+    WHERE
+        ORD.DiscountCode = ?;";
+
+$productStatementObj = $connection->prepare($productquery);
+$productStatementObj->bind_param("s", $discountCode);
+$productStatementObj->execute();
+
+$productStatementObj->bind_result(
+    $ProductName,
+    $Description,
+    $AmazonUrl,
+    $ImageUrl,
+    $Price,
+    $DiscountPercent,
+    $DiscountedPrice,
+    $OrderCount
+);
+$productStatementObj->store_result();
+$productStatementObj->fetch();
+
+$productStatementObj->close();    
 
 $query = "
     SELECT 
@@ -24,13 +69,6 @@ $query = "
         USR.Email,
         ORD.BillingAddress,
         ORD.ShippingAddress,
-        PRD.`Name` ProductName,
-        PRD.Description,
-        PRD.AmazonUrl,
-        PRD.ImageUrl,
-        PRD.Price,
-        DCD.DiscountPercent,
-        (PRD.Price*DCD.DiscountPercent/100) DiscountedPrice,
         ORD.CreditCardCompany,
         ORD.CreditCardExpirationMonth,
         ORD.CreditCardExpirationYear,
@@ -40,9 +78,8 @@ $query = "
         ORD.CreatedDate
 
     FROM 
-        amazoffdb.`Order` ORD 	INNER JOIN amazoffdb.`User` USR ON (ORD.UserID=USR.UserId)
-                                INNER JOIN amazoffdb.`Product` PRD ON (ORD.ProductID=PRD.ProductID)
-                                INNER JOIN amazoffdb.`DiscountCode` DCD ON (ORD.DiscountCode=DCD.DiscountCode)
+        amazoffdb.`Order` ORD 	
+        INNER JOIN amazoffdb.`User` USR ON (ORD.UserID=USR.UserId)
     WHERE
         ORD.DiscountCode = ?;";
 
@@ -56,13 +93,6 @@ $statementObj->bind_result(
     $Email,
     $BillingAddress,
     $ShippingAddress,
-    $ProductName,
-    $Description,
-    $AmazonUrl,
-    $ImageUrl,
-    $Price,
-    $DiscountPercent,
-    $DiscountedPrice,
     $CreditCardCompany,
     $CreditCardExpirationMonth,
     $CreditCardExpirationYear,
@@ -98,57 +128,126 @@ if ($statementObj->num_rows <= 0)
                        <li><a href="index.php"><span>Home</span></a></li>
                        <li class="active"><a href="discount-list.php">Expired Codes</a></li>
                        <li><a href="product-list.php">Potential Buyers</a></li>
+                       <li><a href="ItemAdding/AdjustDiscountPolicy.html">Adjust Discounts</a></li>
+					   <li><a href="ItemAdding/AddItem.html">Add or Delete Items</a></li>
                     </ul>
                 </div>
             </div>
             <div class="main">
-                <table>
-                    <tr>
-                        <th>Order Id</th>
-                        <th>UserName</th>
-                        <th>Email</th>
-                        <th>Billing Address</th>
-                        <th>Shipping Address</th>
-                        <th>Product Name</th>
-                        <th>Description</th>
-                        <th>Url</th>
-                        <th>Image Url</th>
-                        <th>Price</th>
-                        <th>Discount Percent</th>
-                        <th>Discounted Price</th>
-                        <th>Credit Card Company</th>
-                        <th>Credit Card Expiration Month</th>
-                        <th>Credit Card Expiration Year</th>
-                        <th>Credit Card Name</th>
-                        <th>Credit Card Number</th>
-                        <th>Credit Card Security Code</th>
-                        <th>Created Date</th>
-
-                    </tr>
-                    <?php while($statementObj->fetch()): ?>
+                <div>
+                    <h3>Product Information</h3>
+                    <table style="width: 500px;">
                         <tr>
-                            <td><?=$OrderId?></td>
-                            <td><?=$UserName?></td>
-                            <td><?=$Email?></td>
-                            <td><?=$BillingAddress?></td>
-                            <td><?=$ShippingAddress?></td>
-                            <td><?=$ProductName?></td>
-                            <td><?=$Description?></td>
-                            <td><?=$AmazonUrl?></td>
-                            <td><?=$ImageUrl?></td>
-                            <td><?=$Price?></td>
-                            <td><?=$DiscountPercent?></td>
-                            <td><?=$DiscountedPrice?></td>
-                            <td><?=$CreditCardCompany?></td>
-                            <td><?=$CreditCardExpirationMonth?></td>
-                            <td><?=$CreditCardExpirationYear?></td>
-                            <td><?=$CreditCardName?></td>
-                            <td><?=$CreditCardNumber?></td>
-                            <td><?=$CreditCardSecurityCode?></td>
-                            <td><?=$CreatedDate?></td>
+                            <td style="width:200px">
+                                Discount Code
+                            </td>
+                            <td>
+                                <?=$discountCode?>
+                            </td>
                         </tr>
-                    <?php endwhile; ?>
-                </table>
+                        <tr>
+                            <td>
+                                Original Price
+                            </td>
+                            <td>
+                                $ <?=$Price?>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Count of Orders 
+                            </td>
+                            <td>
+                                <?=$OrderCount?>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Discount
+                            </td>
+                            <td>
+                                <?=$DiscountPercent?> %
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Current Discounted Price
+                            </td>
+                            <td>
+                                $ <?=$DiscountedPrice?>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Name
+                            </td>
+                            <td>
+                                <?=$ProductName?>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Description
+                            </td>
+                            <td>
+                                <?=$Description?>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Url
+                            </td>
+                            <td>
+                                <?=$AmazonUrl?>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Image
+                            </td>
+                            <td>
+                                <img  style="width:250px" src="<?=$ImageUrl?>" />
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <br />
+                <br />
+                <div>
+                    <h3>Orders For this Discount Code</h3>                
+                    <table>
+                        <tr>
+                            <th>Order Id</th>
+                            <th>UserName</th>
+                            <th>Email</th>
+                            <th>Billing Address</th>
+                            <th>Shipping Address</th>
+                            <th>CC Company</th>
+                            <th>CC Month</th>
+                            <th>CC Year</th>
+                            <th>CC Name</th>
+                            <th>CC Number</th>
+                            <th>CC Sec Code</th>
+                            <th>Created Date</th>
+                        </tr>
+                        <?php while($statementObj->fetch()): ?>
+                            <tr>
+                                <td><?=$OrderId?></td>
+                                <td><?=$UserName?></td>
+                                <td><?=$Email?></td>
+                                <td><?=$BillingAddress?></td>
+                                <td><?=$ShippingAddress?></td>
+                                <td><?=$CreditCardCompany?></td>
+                                <td><?=$CreditCardExpirationMonth?></td>
+                                <td><?=$CreditCardExpirationYear?></td>
+                                <td><?=$CreditCardName?></td>
+                                <td><?=$CreditCardNumber?></td>
+                                <td><?=$CreditCardSecurityCode?></td>
+                                <td><?=$CreatedDate?></td>
+                            </tr>
+                        <?php endwhile; ?>
+                    </table>
+                </div>
                 <?=$message?>
                 <a href='discount-list.php'>Go back to the discount list</a>
             </div>

@@ -37,6 +37,8 @@ else
                        <li class="active"><a href="index.php"><span>Home</span></a></li>
                        <li><a href="discount-list.php">Expired Codes</a></li>
                        <li><a href="product-list.php">Potential Buyers</a></li>
+                       <li><a href="ItemAdding/AdjustDiscountPolicy.html">Adjust Discounts</a></li>
+					   <li><a href="ItemAdding/AddItem.html">Add or Delete Items</a></li>
                     </ul>
                 </div>
             </div>

@@ -10,6 +10,7 @@ body  {
     height: 100%;
     margin: 0;
     min-width: 100%;
+    background-color: #2f292b;
 }
 .header {
     background: #2f292b;

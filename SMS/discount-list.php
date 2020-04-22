@@ -17,13 +17,17 @@ else
     header('Location: login.php');   
 }
 
+$query = "CALL `amazoffdb`.`prCalculateDiscounts`();";
+
+$resultObj = $connection->query($query);
+
 $query = "
     SELECT 
         DCD.DiscountCodeId,
         DCD.DiscountCode,
         DCD.DiscountPercent,
         DCD.ExpirationDate,
-        DCD.ExpiredFlag,
+        (CASE WHEN DCD.ExpiredFlag=1 THEN 'Expired' ELSE 'Open' END) ExpiredFlag,
         DCD.ProductID,
         (`amazoffdb`.`fnGetOrderCountForDiscountCode`(DCD.DiscountCode)) OrderCount
     FROM 
@@ -51,6 +55,8 @@ $resultObj = $connection->query($query);
                        <li><a href="index.php"><span>Home</span></a></li>
                        <li class="active"><a href="discount-list.php">Expired Codes</a></li>
                        <li><a href="product-list.php">Potential Buyers</a></li>
+                       <li><a href="ItemAdding/AdjustDiscountPolicy.html">Adjust Discounts</a></li>
+					   <li><a href="ItemAdding/AddItem.html">Add or Delete Items</a></li>
                     </ul>
                 </div>
             </div>
@@ -59,21 +65,19 @@ $resultObj = $connection->query($query);
                     <tr>
                         <th>Discount Code Id</th>
                         <th>Discount Code</th>
-                        <th>Discount Percent</th>
+                        <th>Discount</th>
                         <th>Expiration Date</th>
-                        <th>Expired Flag</th>
-                        <th>Product ID</th>
-                        <th>Order Count</th>
+                        <th>Status</th>
+                        <th>Get the List</th>
                     </tr>
                     <?php while($row = $resultObj->fetch_assoc()): ?>
                         <tr>
                             <td><?=$row['DiscountCodeId']?></td>
                             <td><?=$row['DiscountCode']?></td>
-                            <td><?=$row['DiscountPercent']?></td>
+                            <td><?=$row['DiscountPercent']?>%</td>
                             <td><?=$row['ExpirationDate']?></td>
                             <td><?=$row['ExpiredFlag']?></td>
-                            <td><?=$row['ProductID']?></td>
-                            <td><a href="discounted-order-list.php?<?=$row['DiscountCode']?>"><?=$row['OrderCount']?></a></td>
+                            <td><a style="color: white; text-decoration: underline;" href="discounted-order-list.php?<?=$row['DiscountCode']?>"><?=$row['OrderCount']?> Orders</a></td>
                         </tr>
                     <?php endwhile; ?>
                 </table>
