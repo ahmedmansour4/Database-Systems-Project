@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<title>Adjust Discount Policy</title>
+        <link rel="icon" type="image/x-icon" href="../assets/favicon.png">
+        <link href="../assets/styles.css" rel="stylesheet">
+
+		
+
+	</head>
+
+	<body>
+        <div class="header">
+            <img src="../Amazoff-logo.png" style="height: 150px;" />
+            <span style="padding-left: 100px;">Store Management System - Adjust Discount Policy</span>            
+        </div>
+		
+		<section class="container" >
+            <div class="sidenav">
+                <div id="cssmenu">
+                    <ul>
+                       <li><a href="../index.php"><span>Home</span></a></li>
+                       <li><a href="../discount-list.php">Expired Codes</a></li>
+                       <li><a href="../product-list.php">Potential Buyers</a></li>
+					   <li class="active"><a href="AdjustDiscountPolicy.html">Adjust Discounts</a></li>
+					   <li><a href="AddItem.html">Add or Delete Items</a></li>
+                    </ul>
+                </div>
+            </div>
+			
+            <div class="main">
+
+				<h1>Add a Discount Code Policy</h1>
+
+					<div id="center">
+
+					
+						<label for="discountID">Input the ID you wish the discount policy to have.</label>
+						<input id="discountID" type="number" class="productInfo" value="1"/><br/>
+						<label for="discountPercent">Input the percent you wish the discount to be worth.</label>
+						<input id="discountPercent" type="number" class="productInfo" value="5" min="1" max="100"/>%<br/>
+						<label for="minNumberOfPeopleNeeded">Type minimum number of people needed for this discount to apply.</label>
+						<input id="minNumberOfPeopleNeeded" type="number" class="productInfo" value="1" min="0"/><br/>
+						<label for="maxNumberOfPeopleNeeded">Type the maximum number of people allowed for this discount to apply.</label>
+						<input id="maxNumberOfPeopleNeeded" type="number" class="productInfo" value="10" min="1" /><br/><br/>
+
+						
+
+						
+
+						<script type="text/javascript" src="addPolicyCode.js"></script>
+
+						<button type="button" id="changeDiscountPolicyButton" class="buttons" onclick="doChangePolicy();"> Change policy. </button>
+
+						<span id="addPolicyResult"></span>
+						
+						
+
+					</div>
+
+		
+				<br/>
+				<br/>
+				<h1> Delete Discount Policy</h1>
+				
+				
+				<label for="discountDeletionIdentification">Type the ID of the discount policy you wish to delete.</label><br/>
+				<input id="discountDeletionIdentification" type="text"><br/>
+				
+				<script type="text/javascript" src="removePolicyCode.js"></script>
+				
+				<button type="button" id="deletePolicyButton" class="buttons" onclick="doRemovePolicy();">Remove Policy </button>
+				
+				<span id="deletePolicyResult"></span>
+	
+	
+            </div>
+	
+	
+	</body>
+
+</html>

@@ -91,7 +91,6 @@ body  {
     float: none;
 }
 #cssmenu > ul > li > a {
-    border-right: 4px solid #2f292b;
     color: #2f292b;
 }
 #cssmenu a {
@@ -162,3 +161,9 @@ td, th {
     padding: 0.5rem;
 
   }
+td > a {
+    color: #ffffff;
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+}
